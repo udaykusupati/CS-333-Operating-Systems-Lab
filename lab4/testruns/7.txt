@@ -1,0 +1,61 @@
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the serverERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the serverERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the serverERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the serverERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the serverERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+
+
+ERROR connecting, Client request is being denied at the server
+
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+Total number of requests served by the server 9016
+Throughput 40.25req/s
+Response time according to definition 1: 12866.6
+Response time according to definition 2: 12961.3
+(Definitions ofthroughput can be found in the report)
+Number of requests which got rejected at the server: 54
+Done!

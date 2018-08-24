@@ -1,0 +1,38 @@
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the serverERROR connecting, Client request is being denied at the server
+
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+Total number of requests served by the server 9436
+Throughput 42.125req/s
+Response time according to definition 1: 8080.94
+Response time according to definition 2: 8120.93
+(Definitions ofthroughput can be found in the report)
+Number of requests which got rejected at the server: 31
+Done!

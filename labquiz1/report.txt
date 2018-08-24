@@ -1,0 +1,6 @@
+1.tp=Time 11.145 msec
+  ts= 18.14 msec
+  ts/tp~=2
+  is approximately equal to the number of cores of the cpu
+  => in the first case since threads are used parallely four cores can concurrently execute 8 threads
+  In second case only 1 thread is present. 

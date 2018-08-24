@@ -1,0 +1,17 @@
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+ERROR connecting, Client request is being denied at the server
+Total number of requests served by the server 9211
+Throughput 42.6343req/s
+Response time according to definition 1: 12408.7
+Response time according to definition 2: 12539.8
+(Definitions ofthroughput can be found in the report)
+Number of requests which got rejected at the server: 10
+Done!

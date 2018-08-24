@@ -1,0 +1,856 @@
+diff -Naur OldDir/config.log NewDir/config.log
+--- OldDir/config.log	2016-10-23 19:40:04.910686011 +0530
++++ NewDir/config.log	2016-10-23 12:26:53.567720430 +0530
+@@ -12,9 +12,9 @@
+ 
+ hostname = JARVIS-Lenovo-Y50-70
+ uname -m = x86_64
+-uname -r = 4.4.0-45-generic
++uname -r = 4.4.0-43-generic
+ uname -s = Linux
+-uname -v = #66-Ubuntu SMP Wed Oct 19 14:12:37 UTC 2016
++uname -v = #63-Ubuntu SMP Wed Oct 12 13:48:03 UTC 2016
+ 
+ /usr/bin/uname -p = unknown
+ /bin/uname -X     = unknown
+@@ -787,7 +787,7 @@
+ ## Output variables. ##
+ ## ----------------- ##
+ 
+-ACLOCAL='${SHELL} /home/uday/Downloads/OldDir/missing aclocal-1.15'
++ACLOCAL='${SHELL} /home/uday/Downloads/fuse-tutorial-2016-03-25/missing aclocal-1.15'
+ AMDEPBACKSLASH='\'
+ AMDEP_FALSE='#'
+ AMDEP_TRUE=''
+@@ -796,9 +796,9 @@
+ AM_DEFAULT_V='$(AM_DEFAULT_VERBOSITY)'
+ AM_DEFAULT_VERBOSITY='1'
+ AM_V='$(V)'
+-AUTOCONF='${SHELL} /home/uday/Downloads/OldDir/missing autoconf'
+-AUTOHEADER='${SHELL} /home/uday/Downloads/OldDir/missing autoheader'
+-AUTOMAKE='${SHELL} /home/uday/Downloads/OldDir/missing automake-1.15'
++AUTOCONF='${SHELL} /home/uday/Downloads/fuse-tutorial-2016-03-25/missing autoconf'
++AUTOHEADER='${SHELL} /home/uday/Downloads/fuse-tutorial-2016-03-25/missing autoheader'
++AUTOMAKE='${SHELL} /home/uday/Downloads/fuse-tutorial-2016-03-25/missing automake-1.15'
+ AWK='gawk'
+ CC='gcc'
+ CCDEPMODE='depmode=gcc3'
+@@ -824,7 +824,7 @@
+ LIBOBJS=''
+ LIBS=''
+ LTLIBOBJS=''
+-MAKEINFO='${SHELL} /home/uday/Downloads/OldDir/missing makeinfo'
++MAKEINFO='${SHELL} /home/uday/Downloads/fuse-tutorial-2016-03-25/missing makeinfo'
+ MKDIR_P='/bin/mkdir -p'
+ OBJEXT='o'
+ PACKAGE='fuse-tutorial'
+@@ -865,7 +865,7 @@
+ htmldir='${docdir}'
+ includedir='${prefix}/include'
+ infodir='${datarootdir}/info'
+-install_sh='${SHELL} /home/uday/Downloads/OldDir/install-sh'
++install_sh='${SHELL} /home/uday/Downloads/fuse-tutorial-2016-03-25/install-sh'
+ libdir='${exec_prefix}/lib'
+ libexecdir='${exec_prefix}/libexec'
+ localedir='${datarootdir}/locale'
+diff -Naur OldDir/config.status NewDir/config.status
+--- OldDir/config.status	2016-10-23 19:40:04.790686014 +0530
++++ NewDir/config.status	2016-10-23 12:26:53.467720432 +0530
+@@ -437,7 +437,7 @@
+ This config.status script is free software; the Free Software Foundation
+ gives unlimited permission to copy, distribute and modify it."
+ 
+-ac_pwd='/home/uday/Downloads/OldDir'
++ac_pwd='/home/uday/Downloads/fuse-tutorial-2016-03-25'
+ srcdir='.'
+ INSTALL='/usr/bin/install -c'
+ MKDIR_P='/bin/mkdir -p'
+@@ -659,12 +659,12 @@
+ S["MKDIR_P"]="/bin/mkdir -p"
+ S["INSTALL_STRIP_PROGRAM"]="$(install_sh) -c -s"
+ S["STRIP"]=""
+-S["install_sh"]="${SHELL} /home/uday/Downloads/OldDir/install-sh"
+-S["MAKEINFO"]="${SHELL} /home/uday/Downloads/OldDir/missing makeinfo"
+-S["AUTOHEADER"]="${SHELL} /home/uday/Downloads/OldDir/missing autoheader"
+-S["AUTOMAKE"]="${SHELL} /home/uday/Downloads/OldDir/missing automake-1.15"
+-S["AUTOCONF"]="${SHELL} /home/uday/Downloads/OldDir/missing autoconf"
+-S["ACLOCAL"]="${SHELL} /home/uday/Downloads/OldDir/missing aclocal-1.15"
++S["install_sh"]="${SHELL} /home/uday/Downloads/fuse-tutorial-2016-03-25/install-sh"
++S["MAKEINFO"]="${SHELL} /home/uday/Downloads/fuse-tutorial-2016-03-25/missing makeinfo"
++S["AUTOHEADER"]="${SHELL} /home/uday/Downloads/fuse-tutorial-2016-03-25/missing autoheader"
++S["AUTOMAKE"]="${SHELL} /home/uday/Downloads/fuse-tutorial-2016-03-25/missing automake-1.15"
++S["AUTOCONF"]="${SHELL} /home/uday/Downloads/fuse-tutorial-2016-03-25/missing autoconf"
++S["ACLOCAL"]="${SHELL} /home/uday/Downloads/fuse-tutorial-2016-03-25/missing aclocal-1.15"
+ S["VERSION"]="2016-03-25"
+ S["PACKAGE"]="fuse-tutorial"
+ S["CYGPATH_W"]="echo"
+diff -Naur OldDir/html/Makefile NewDir/html/Makefile
+--- OldDir/html/Makefile	2016-10-23 19:40:04.838686013 +0530
++++ NewDir/html/Makefile	2016-10-23 12:26:53.503720432 +0530
+@@ -117,12 +117,12 @@
+ am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)
+ am__DIST_COMMON = $(srcdir)/Makefile.in
+ DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
+-ACLOCAL = ${SHELL} /home/uday/Downloads/OldDir/missing aclocal-1.15
++ACLOCAL = ${SHELL} /home/uday/Downloads/fuse-tutorial-2016-03-25/missing aclocal-1.15
+ AMTAR = $${TAR-tar}
+ AM_DEFAULT_VERBOSITY = 1
+-AUTOCONF = ${SHELL} /home/uday/Downloads/OldDir/missing autoconf
+-AUTOHEADER = ${SHELL} /home/uday/Downloads/OldDir/missing autoheader
+-AUTOMAKE = ${SHELL} /home/uday/Downloads/OldDir/missing automake-1.15
++AUTOCONF = ${SHELL} /home/uday/Downloads/fuse-tutorial-2016-03-25/missing autoconf
++AUTOHEADER = ${SHELL} /home/uday/Downloads/fuse-tutorial-2016-03-25/missing autoheader
++AUTOMAKE = ${SHELL} /home/uday/Downloads/fuse-tutorial-2016-03-25/missing automake-1.15
+ AWK = gawk
+ CC = gcc
+ CCDEPMODE = depmode=gcc3
+@@ -149,7 +149,7 @@
+ LIBOBJS = 
+ LIBS = 
+ LTLIBOBJS = 
+-MAKEINFO = ${SHELL} /home/uday/Downloads/OldDir/missing makeinfo
++MAKEINFO = ${SHELL} /home/uday/Downloads/fuse-tutorial-2016-03-25/missing makeinfo
+ MKDIR_P = /bin/mkdir -p
+ OBJEXT = o
+ PACKAGE = fuse-tutorial
+@@ -167,10 +167,10 @@
+ SHELL = /bin/bash
+ STRIP = 
+ VERSION = 2016-03-25
+-abs_builddir = /home/uday/Downloads/OldDir/html
+-abs_srcdir = /home/uday/Downloads/OldDir/html
+-abs_top_builddir = /home/uday/Downloads/OldDir
+-abs_top_srcdir = /home/uday/Downloads/OldDir
++abs_builddir = /home/uday/Downloads/fuse-tutorial-2016-03-25/html
++abs_srcdir = /home/uday/Downloads/fuse-tutorial-2016-03-25/html
++abs_top_builddir = /home/uday/Downloads/fuse-tutorial-2016-03-25
++abs_top_srcdir = /home/uday/Downloads/fuse-tutorial-2016-03-25
+ ac_ct_CC = gcc
+ am__include = include
+ am__leading_dot = .
+@@ -189,7 +189,7 @@
+ htmldir = ${docdir}
+ includedir = ${prefix}/include
+ infodir = ${datarootdir}/info
+-install_sh = ${SHELL} /home/uday/Downloads/OldDir/install-sh
++install_sh = ${SHELL} /home/uday/Downloads/fuse-tutorial-2016-03-25/install-sh
+ libdir = ${exec_prefix}/lib
+ libexecdir = ${exec_prefix}/libexec
+ localedir = ${datarootdir}/locale
+diff -Naur OldDir/Makefile NewDir/Makefile
+--- OldDir/Makefile	2016-10-23 19:40:04.826686013 +0530
++++ NewDir/Makefile	2016-10-23 12:26:53.495720432 +0530
+@@ -198,12 +198,12 @@
+ am__distuninstallcheck_listfiles = $(distuninstallcheck_listfiles) \
+   | sed 's|^\./|$(prefix)/|' | grep -v '$(infodir)/dir$$'
+ distcleancheck_listfiles = find . -type f -print
+-ACLOCAL = ${SHELL} /home/uday/Downloads/OldDir/missing aclocal-1.15
++ACLOCAL = ${SHELL} /home/uday/Downloads/fuse-tutorial-2016-03-25/missing aclocal-1.15
+ AMTAR = $${TAR-tar}
+ AM_DEFAULT_VERBOSITY = 1
+-AUTOCONF = ${SHELL} /home/uday/Downloads/OldDir/missing autoconf
+-AUTOHEADER = ${SHELL} /home/uday/Downloads/OldDir/missing autoheader
+-AUTOMAKE = ${SHELL} /home/uday/Downloads/OldDir/missing automake-1.15
++AUTOCONF = ${SHELL} /home/uday/Downloads/fuse-tutorial-2016-03-25/missing autoconf
++AUTOHEADER = ${SHELL} /home/uday/Downloads/fuse-tutorial-2016-03-25/missing autoheader
++AUTOMAKE = ${SHELL} /home/uday/Downloads/fuse-tutorial-2016-03-25/missing automake-1.15
+ AWK = gawk
+ CC = gcc
+ CCDEPMODE = depmode=gcc3
+@@ -230,7 +230,7 @@
+ LIBOBJS = 
+ LIBS = 
+ LTLIBOBJS = 
+-MAKEINFO = ${SHELL} /home/uday/Downloads/OldDir/missing makeinfo
++MAKEINFO = ${SHELL} /home/uday/Downloads/fuse-tutorial-2016-03-25/missing makeinfo
+ MKDIR_P = /bin/mkdir -p
+ OBJEXT = o
+ PACKAGE = fuse-tutorial
+@@ -248,10 +248,10 @@
+ SHELL = /bin/bash
+ STRIP = 
+ VERSION = 2016-03-25
+-abs_builddir = /home/uday/Downloads/OldDir
+-abs_srcdir = /home/uday/Downloads/OldDir
+-abs_top_builddir = /home/uday/Downloads/OldDir
+-abs_top_srcdir = /home/uday/Downloads/OldDir
++abs_builddir = /home/uday/Downloads/fuse-tutorial-2016-03-25
++abs_srcdir = /home/uday/Downloads/fuse-tutorial-2016-03-25
++abs_top_builddir = /home/uday/Downloads/fuse-tutorial-2016-03-25
++abs_top_srcdir = /home/uday/Downloads/fuse-tutorial-2016-03-25
+ ac_ct_CC = gcc
+ am__include = include
+ am__leading_dot = .
+@@ -270,7 +270,7 @@
+ htmldir = ${docdir}
+ includedir = ${prefix}/include
+ infodir = ${datarootdir}/info
+-install_sh = ${SHELL} /home/uday/Downloads/OldDir/install-sh
++install_sh = ${SHELL} /home/uday/Downloads/fuse-tutorial-2016-03-25/install-sh
+ libdir = ${exec_prefix}/lib
+ libexecdir = ${exec_prefix}/libexec
+ localedir = ${datarootdir}/locale
+diff -Naur OldDir/src/bbfs.c NewDir/src/bbfs.c
+--- OldDir/src/bbfs.c	2016-03-27 06:15:20.000000000 +0530
++++ NewDir/src/bbfs.c	2016-10-23 19:08:49.296365063 +0530
+@@ -23,7 +23,7 @@
+ */
+ 
+ #include "params.h"
+-
++#include <openssl/sha.h>
+ #include <ctype.h>
+ #include <dirent.h>
+ #include <errno.h>
+@@ -79,7 +79,23 @@
+     bb_fullpath(fpath, path);
+ 
+     retstat = log_syscall("lstat", lstat(fpath, statbuf), 0);
+-    
++    //char fpath[PATH_MAX];
++    /*bb_fullpath(fpath, path);
++    FILE* fp=fopen(fpath,"r");
++    int count=0;
++    char* buf=NULL;
++    size_t len = 0;
++    while(getline(&buf,&len,fp))
++    {
++        count++;
++    }
++    fclose(fp);*/
++    DIR* directory = opendir(fpath);
++    if(directory == NULL)
++    {
++        statbuf->st_size = (statbuf->st_size/8)*4096; 
++        statbuf->st_blocks = statbuf->st_size/512;
++    }
+     log_stat(statbuf);
+     
+     return retstat;
+@@ -330,14 +346,54 @@
+ // returned by read.
+ int bb_read(const char *path, char *buf, size_t size, off_t offset, struct fuse_file_info *fi)
+ {
+-    int retstat = 0;
++    // int retstat = 0;
++    
++    // log_msg("\nbb_read(path=\"%s\", buf=0x%08x, size=%d, offset=%lld, fi=0x%08x)\n",
++	   //  path, buf, size, offset, fi);
++    // // no need to get fpath on this one, since I work from fi->fh not the path
++    // log_fi(fi);
++
++
++
++    // FILE* fp = fopen("/tmp/blockstore", "r");
++
++    // //read from file, get block numbers and read from block store
++    // return log_syscall("pread", pread(fi->fh, buf, size, offset), 0);
++
++       int retstat = 0;
+     
+     log_msg("\nbb_read(path=\"%s\", buf=0x%08x, size=%d, offset=%lld, fi=0x%08x)\n",
+-	    path, buf, size, offset, fi);
++        path, buf, size, offset, fi);
+     // no need to get fpath on this one, since I work from fi->fh not the path
+     log_fi(fi);
+ 
+-    return log_syscall("pread", pread(fi->fh, buf, size, offset), 0);
++    FILE* fp = fopen("/tmp/blockstore", "r");
++    
++
++    char data[65537];
++    int blockval=0;
++    int bnum = 0;
++
++    buf[log_syscall("pread", pread(fi->fh, buf, size, offset), 0)]='\0';
++    for(int i=0; i<strlen(buf); i = i+8)
++    {
++        blockval = 0;
++        int tpow=128;
++        for(int j=0;j<8;j++)
++        {
++            blockval+=(buf[i+j]-'0')*tpow;
++            tpow/=2;
++        }
++        fseek(fp, blockval*4096, SEEK_SET);
++        fread(data+bnum*4096, 4096, 1,fp);
++        bnum++;
++    }
++    data[bnum*4096] = '\0';
++    buf[0] = '\0';
++    strcpy(buf, data);
++    fclose(fp);
++    return strlen(buf);
++
+ }
+ 
+ /** Write data to an open file
+@@ -360,8 +416,53 @@
+ 	    );
+     // no need to get fpath on this one, since I work from fi->fh not the path
+     log_fi(fi);
+-
+-    return log_syscall("pwrite", pwrite(fi->fh, buf, size, offset), 0);
++    
++    unsigned char hash[SHA_DIGEST_LENGTH];
++    char* linebuf=NULL;
++    SHA1(buf, sizeof(buf) - 1, hash);
++    FILE* fp=fopen("/tmp/hashstore","a+");
++    int status=0;
++    size_t length=0;
++    int blocknum=0;
++    while(getline(&linebuf,&length,fp) != -1)
++    {
++        if(memcmp(hash, linebuf, SHA_DIGEST_LENGTH) == 0)
++        {
++            //log_msg(" pook : \n");   
++            status=1;
++            break;
++        }
++        blocknum++;
++    }
++    if(status==0)
++    {
++        fprintf(fp,"%s\n",hash);
++        //log_msg(" lanja : \n");
++        FILE* fp2=fopen("/tmp/blockstore","a+");
++        fprintf(fp2,"%s",buf);
++        fclose(fp2);   
++    }
++    fclose(fp);
++    int siz = 8;
++    char mybuf[9];
++    int x = blocknum;  
++    int ind = 7;
++    while(ind>=0)
++    {
++        mybuf[ind] = x%2+'0';
++        x = x/2;
++        ind--;
++    }
++    mybuf[siz] = "\0";
++    if(log_syscall("pwrite", pwrite(fi->fh, &mybuf, siz, (offset/4096)*(siz)), 0) == siz)
++    {
++        return size;
++    }
++    return 0;
++    //read from hashstore
++    //if found write block numbers in file
++    //if not write in blockstore get hash and put in hashstore and write blcok number in file
++    
+ }
+ 
+ /** Get file system statistics
+@@ -802,7 +903,23 @@
+     retstat = fstat(fi->fh, statbuf);
+     if (retstat < 0)
+ 	retstat = log_error("bb_fgetattr fstat");
+-    
++    /*char fpath[PATH_MAX];
++    bb_fullpath(fpath, path);
++    FILE* fp=fopen(fpath,"r");
++    int count=0;
++    char* buf=NULL;
++    size_t len = 0;
++    while(getline(&buf,&len,fp))
++    {
++        count++;
++    }
++    fclose(fp);*/
++    DIR* directory = opendir(path);
++    if(directory == NULL)
++    {
++        statbuf->st_size = (statbuf->st_size/8)*4096; 
++        statbuf->st_blocks = statbuf->st_size/512;
++    }
+     log_stat(statbuf);
+     
+     return retstat;
+diff -Naur OldDir/src/.deps/bbfs.Po NewDir/src/.deps/bbfs.Po
+--- OldDir/src/.deps/bbfs.Po	2016-10-23 19:40:04.890686012 +0530
++++ NewDir/src/.deps/bbfs.Po	2016-10-23 19:20:16.240388934 +0530
+@@ -1 +1,216 @@
+-# dummy
++bbfs.o: bbfs.c /usr/include/stdc-predef.h params.h \
++ /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/limits.h \
++ /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/syslimits.h \
++ /usr/include/limits.h /usr/include/features.h \
++ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
++ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
++ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
++ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
++ /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
++ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
++ /usr/include/linux/limits.h \
++ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
++ /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
++ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h /usr/include/stdio.h \
++ /usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h \
++ /usr/include/x86_64-linux-gnu/bits/types.h \
++ /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/libio.h \
++ /usr/include/_G_config.h /usr/include/wchar.h \
++ /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
++ /usr/include/x86_64-linux-gnu/bits/sys_errlist.h /usr/include/getopt.h \
++ /usr/include/x86_64-linux-gnu/bits/stdio.h \
++ /usr/include/x86_64-linux-gnu/bits/stdio2.h /usr/include/openssl/sha.h \
++ /usr/include/openssl/e_os2.h \
++ /usr/include/x86_64-linux-gnu/openssl/opensslconf.h /usr/include/ctype.h \
++ /usr/include/endian.h /usr/include/x86_64-linux-gnu/bits/endian.h \
++ /usr/include/dirent.h /usr/include/x86_64-linux-gnu/bits/dirent.h \
++ /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h \
++ /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h \
++ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
++ /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
++ /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h /usr/include/time.h \
++ /usr/include/x86_64-linux-gnu/bits/stat.h \
++ /usr/include/x86_64-linux-gnu/bits/fcntl2.h /usr/include/fuse/fuse.h \
++ /usr/include/fuse/fuse_common.h /usr/include/fuse/fuse_opt.h \
++ /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
++ /usr/include/x86_64-linux-gnu/bits/wchar.h \
++ /usr/include/x86_64-linux-gnu/sys/types.h \
++ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
++ /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/utime.h \
++ /usr/include/x86_64-linux-gnu/sys/stat.h \
++ /usr/include/x86_64-linux-gnu/sys/statvfs.h \
++ /usr/include/x86_64-linux-gnu/bits/statvfs.h \
++ /usr/include/x86_64-linux-gnu/sys/uio.h \
++ /usr/include/x86_64-linux-gnu/bits/uio.h /usr/include/libgen.h \
++ /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
++ /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
++ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
++ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
++ /usr/include/x86_64-linux-gnu/bits/stdlib.h /usr/include/string.h \
++ /usr/include/x86_64-linux-gnu/bits/string.h \
++ /usr/include/x86_64-linux-gnu/bits/string2.h \
++ /usr/include/x86_64-linux-gnu/bits/string3.h /usr/include/unistd.h \
++ /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
++ /usr/include/x86_64-linux-gnu/bits/environments.h \
++ /usr/include/x86_64-linux-gnu/bits/confname.h \
++ /usr/include/x86_64-linux-gnu/bits/unistd.h log.h
++
++/usr/include/stdc-predef.h:
++
++params.h:
++
++/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/limits.h:
++
++/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/syslimits.h:
++
++/usr/include/limits.h:
++
++/usr/include/features.h:
++
++/usr/include/x86_64-linux-gnu/sys/cdefs.h:
++
++/usr/include/x86_64-linux-gnu/bits/wordsize.h:
++
++/usr/include/x86_64-linux-gnu/gnu/stubs.h:
++
++/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
++
++/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
++
++/usr/include/x86_64-linux-gnu/bits/local_lim.h:
++
++/usr/include/linux/limits.h:
++
++/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
++
++/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
++
++/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
++
++/usr/include/stdio.h:
++
++/usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h:
++
++/usr/include/x86_64-linux-gnu/bits/types.h:
++
++/usr/include/x86_64-linux-gnu/bits/typesizes.h:
++
++/usr/include/libio.h:
++
++/usr/include/_G_config.h:
++
++/usr/include/wchar.h:
++
++/usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h:
++
++/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
++
++/usr/include/getopt.h:
++
++/usr/include/x86_64-linux-gnu/bits/stdio.h:
++
++/usr/include/x86_64-linux-gnu/bits/stdio2.h:
++
++/usr/include/openssl/sha.h:
++
++/usr/include/openssl/e_os2.h:
++
++/usr/include/x86_64-linux-gnu/openssl/opensslconf.h:
++
++/usr/include/ctype.h:
++
++/usr/include/endian.h:
++
++/usr/include/x86_64-linux-gnu/bits/endian.h:
++
++/usr/include/dirent.h:
++
++/usr/include/x86_64-linux-gnu/bits/dirent.h:
++
++/usr/include/errno.h:
++
++/usr/include/x86_64-linux-gnu/bits/errno.h:
++
++/usr/include/linux/errno.h:
++
++/usr/include/x86_64-linux-gnu/asm/errno.h:
++
++/usr/include/asm-generic/errno.h:
++
++/usr/include/asm-generic/errno-base.h:
++
++/usr/include/fcntl.h:
++
++/usr/include/x86_64-linux-gnu/bits/fcntl.h:
++
++/usr/include/x86_64-linux-gnu/bits/fcntl-linux.h:
++
++/usr/include/time.h:
++
++/usr/include/x86_64-linux-gnu/bits/stat.h:
++
++/usr/include/x86_64-linux-gnu/bits/fcntl2.h:
++
++/usr/include/fuse/fuse.h:
++
++/usr/include/fuse/fuse_common.h:
++
++/usr/include/fuse/fuse_opt.h:
++
++/usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h:
++
++/usr/include/stdint.h:
++
++/usr/include/x86_64-linux-gnu/bits/wchar.h:
++
++/usr/include/x86_64-linux-gnu/sys/types.h:
++
++/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
++
++/usr/include/x86_64-linux-gnu/bits/time.h:
++
++/usr/include/utime.h:
++
++/usr/include/x86_64-linux-gnu/sys/stat.h:
++
++/usr/include/x86_64-linux-gnu/sys/statvfs.h:
++
++/usr/include/x86_64-linux-gnu/bits/statvfs.h:
++
++/usr/include/x86_64-linux-gnu/sys/uio.h:
++
++/usr/include/x86_64-linux-gnu/bits/uio.h:
++
++/usr/include/libgen.h:
++
++/usr/include/stdlib.h:
++
++/usr/include/x86_64-linux-gnu/bits/waitflags.h:
++
++/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
++
++/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
++
++/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
++
++/usr/include/x86_64-linux-gnu/bits/stdlib.h:
++
++/usr/include/string.h:
++
++/usr/include/x86_64-linux-gnu/bits/string.h:
++
++/usr/include/x86_64-linux-gnu/bits/string2.h:
++
++/usr/include/x86_64-linux-gnu/bits/string3.h:
++
++/usr/include/unistd.h:
++
++/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
++
++/usr/include/x86_64-linux-gnu/bits/environments.h:
++
++/usr/include/x86_64-linux-gnu/bits/confname.h:
++
++/usr/include/x86_64-linux-gnu/bits/unistd.h:
++
++log.h:
+diff -Naur OldDir/src/.deps/log.Po NewDir/src/.deps/log.Po
+--- OldDir/src/.deps/log.Po	2016-10-23 19:40:04.890686012 +0530
++++ NewDir/src/.deps/log.Po	2016-10-23 19:20:16.352388938 +0530
+@@ -1 +1,200 @@
+-# dummy
++log.o: log.c /usr/include/stdc-predef.h params.h \
++ /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/limits.h \
++ /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/syslimits.h \
++ /usr/include/limits.h /usr/include/features.h \
++ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
++ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
++ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
++ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
++ /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
++ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
++ /usr/include/linux/limits.h \
++ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
++ /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
++ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h /usr/include/stdio.h \
++ /usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h \
++ /usr/include/x86_64-linux-gnu/bits/types.h \
++ /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/libio.h \
++ /usr/include/_G_config.h /usr/include/wchar.h \
++ /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
++ /usr/include/x86_64-linux-gnu/bits/sys_errlist.h /usr/include/getopt.h \
++ /usr/include/x86_64-linux-gnu/bits/stdio.h \
++ /usr/include/x86_64-linux-gnu/bits/stdio2.h /usr/include/errno.h \
++ /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
++ /usr/include/x86_64-linux-gnu/asm/errno.h \
++ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
++ /usr/include/fuse/fuse.h /usr/include/fuse/fuse_common.h \
++ /usr/include/fuse/fuse_opt.h \
++ /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
++ /usr/include/x86_64-linux-gnu/bits/wchar.h \
++ /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/time.h \
++ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/fcntl.h \
++ /usr/include/x86_64-linux-gnu/bits/fcntl.h \
++ /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
++ /usr/include/x86_64-linux-gnu/bits/stat.h \
++ /usr/include/x86_64-linux-gnu/bits/fcntl2.h \
++ /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/utime.h \
++ /usr/include/x86_64-linux-gnu/sys/stat.h \
++ /usr/include/x86_64-linux-gnu/sys/statvfs.h \
++ /usr/include/x86_64-linux-gnu/bits/statvfs.h \
++ /usr/include/x86_64-linux-gnu/sys/uio.h \
++ /usr/include/x86_64-linux-gnu/bits/uio.h /usr/include/stdlib.h \
++ /usr/include/x86_64-linux-gnu/bits/waitflags.h \
++ /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
++ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
++ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
++ /usr/include/x86_64-linux-gnu/bits/stdlib.h /usr/include/string.h \
++ /usr/include/x86_64-linux-gnu/bits/string.h \
++ /usr/include/x86_64-linux-gnu/bits/string2.h /usr/include/endian.h \
++ /usr/include/x86_64-linux-gnu/bits/endian.h \
++ /usr/include/x86_64-linux-gnu/bits/string3.h /usr/include/unistd.h \
++ /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
++ /usr/include/x86_64-linux-gnu/bits/environments.h \
++ /usr/include/x86_64-linux-gnu/bits/confname.h \
++ /usr/include/x86_64-linux-gnu/bits/unistd.h log.h
++
++/usr/include/stdc-predef.h:
++
++params.h:
++
++/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/limits.h:
++
++/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/syslimits.h:
++
++/usr/include/limits.h:
++
++/usr/include/features.h:
++
++/usr/include/x86_64-linux-gnu/sys/cdefs.h:
++
++/usr/include/x86_64-linux-gnu/bits/wordsize.h:
++
++/usr/include/x86_64-linux-gnu/gnu/stubs.h:
++
++/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
++
++/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
++
++/usr/include/x86_64-linux-gnu/bits/local_lim.h:
++
++/usr/include/linux/limits.h:
++
++/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
++
++/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
++
++/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
++
++/usr/include/stdio.h:
++
++/usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h:
++
++/usr/include/x86_64-linux-gnu/bits/types.h:
++
++/usr/include/x86_64-linux-gnu/bits/typesizes.h:
++
++/usr/include/libio.h:
++
++/usr/include/_G_config.h:
++
++/usr/include/wchar.h:
++
++/usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h:
++
++/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
++
++/usr/include/getopt.h:
++
++/usr/include/x86_64-linux-gnu/bits/stdio.h:
++
++/usr/include/x86_64-linux-gnu/bits/stdio2.h:
++
++/usr/include/errno.h:
++
++/usr/include/x86_64-linux-gnu/bits/errno.h:
++
++/usr/include/linux/errno.h:
++
++/usr/include/x86_64-linux-gnu/asm/errno.h:
++
++/usr/include/asm-generic/errno.h:
++
++/usr/include/asm-generic/errno-base.h:
++
++/usr/include/fuse/fuse.h:
++
++/usr/include/fuse/fuse_common.h:
++
++/usr/include/fuse/fuse_opt.h:
++
++/usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h:
++
++/usr/include/stdint.h:
++
++/usr/include/x86_64-linux-gnu/bits/wchar.h:
++
++/usr/include/x86_64-linux-gnu/sys/types.h:
++
++/usr/include/time.h:
++
++/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
++
++/usr/include/fcntl.h:
++
++/usr/include/x86_64-linux-gnu/bits/fcntl.h:
++
++/usr/include/x86_64-linux-gnu/bits/fcntl-linux.h:
++
++/usr/include/x86_64-linux-gnu/bits/stat.h:
++
++/usr/include/x86_64-linux-gnu/bits/fcntl2.h:
++
++/usr/include/x86_64-linux-gnu/bits/time.h:
++
++/usr/include/utime.h:
++
++/usr/include/x86_64-linux-gnu/sys/stat.h:
++
++/usr/include/x86_64-linux-gnu/sys/statvfs.h:
++
++/usr/include/x86_64-linux-gnu/bits/statvfs.h:
++
++/usr/include/x86_64-linux-gnu/sys/uio.h:
++
++/usr/include/x86_64-linux-gnu/bits/uio.h:
++
++/usr/include/stdlib.h:
++
++/usr/include/x86_64-linux-gnu/bits/waitflags.h:
++
++/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
++
++/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
++
++/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
++
++/usr/include/x86_64-linux-gnu/bits/stdlib.h:
++
++/usr/include/string.h:
++
++/usr/include/x86_64-linux-gnu/bits/string.h:
++
++/usr/include/x86_64-linux-gnu/bits/string2.h:
++
++/usr/include/endian.h:
++
++/usr/include/x86_64-linux-gnu/bits/endian.h:
++
++/usr/include/x86_64-linux-gnu/bits/string3.h:
++
++/usr/include/unistd.h:
++
++/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
++
++/usr/include/x86_64-linux-gnu/bits/environments.h:
++
++/usr/include/x86_64-linux-gnu/bits/confname.h:
++
++/usr/include/x86_64-linux-gnu/bits/unistd.h:
++
++log.h:
+diff -Naur OldDir/src/Makefile NewDir/src/Makefile
+--- OldDir/src/Makefile	2016-10-23 19:40:04.850686013 +0530
++++ NewDir/src/Makefile	2016-10-23 16:53:27.466029793 +0530
+@@ -161,12 +161,12 @@
+ am__DIST_COMMON = $(srcdir)/Makefile.in $(srcdir)/config.h.in \
+ 	$(top_srcdir)/depcomp
+ DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
+-ACLOCAL = ${SHELL} /home/uday/Downloads/OldDir/missing aclocal-1.15
++ACLOCAL = ${SHELL} /home/uday/Downloads/fuse-tutorial-2016-03-25/missing aclocal-1.15
+ AMTAR = $${TAR-tar}
+ AM_DEFAULT_VERBOSITY = 1
+-AUTOCONF = ${SHELL} /home/uday/Downloads/OldDir/missing autoconf
+-AUTOHEADER = ${SHELL} /home/uday/Downloads/OldDir/missing autoheader
+-AUTOMAKE = ${SHELL} /home/uday/Downloads/OldDir/missing automake-1.15
++AUTOCONF = ${SHELL} /home/uday/Downloads/fuse-tutorial-2016-03-25/missing autoconf
++AUTOHEADER = ${SHELL} /home/uday/Downloads/fuse-tutorial-2016-03-25/missing autoheader
++AUTOMAKE = ${SHELL} /home/uday/Downloads/fuse-tutorial-2016-03-25/missing automake-1.15
+ AWK = gawk
+ CC = gcc
+ CCDEPMODE = depmode=gcc3
+@@ -193,7 +193,7 @@
+ LIBOBJS = 
+ LIBS = 
+ LTLIBOBJS = 
+-MAKEINFO = ${SHELL} /home/uday/Downloads/OldDir/missing makeinfo
++MAKEINFO = ${SHELL} /home/uday/Downloads/fuse-tutorial-2016-03-25/missing makeinfo
+ MKDIR_P = /bin/mkdir -p
+ OBJEXT = o
+ PACKAGE = fuse-tutorial
+@@ -211,10 +211,10 @@
+ SHELL = /bin/bash
+ STRIP = 
+ VERSION = 2016-03-25
+-abs_builddir = /home/uday/Downloads/OldDir/src
+-abs_srcdir = /home/uday/Downloads/OldDir/src
+-abs_top_builddir = /home/uday/Downloads/OldDir
+-abs_top_srcdir = /home/uday/Downloads/OldDir
++abs_builddir = /home/uday/Downloads/fuse-tutorial-2016-03-25/src
++abs_srcdir = /home/uday/Downloads/fuse-tutorial-2016-03-25/src
++abs_top_builddir = /home/uday/Downloads/fuse-tutorial-2016-03-25
++abs_top_srcdir = /home/uday/Downloads/fuse-tutorial-2016-03-25
+ ac_ct_CC = gcc
+ am__include = include
+ am__leading_dot = .
+@@ -233,7 +233,7 @@
+ htmldir = ${docdir}
+ includedir = ${prefix}/include
+ infodir = ${datarootdir}/info
+-install_sh = ${SHELL} /home/uday/Downloads/OldDir/install-sh
++install_sh = ${SHELL} /home/uday/Downloads/fuse-tutorial-2016-03-25/install-sh
+ libdir = ${exec_prefix}/lib
+ libexecdir = ${exec_prefix}/libexec
+ localedir = ${datarootdir}/locale
+@@ -256,7 +256,7 @@
+ top_srcdir = ..
+ bbfs_SOURCES = bbfs.c log.c log.h  params.h
+ AM_CFLAGS = -D_FILE_OFFSET_BITS=64 -I/usr/include/fuse
+-LDADD = -lfuse -pthread
++LDADD = -lfuse -pthread -lcrypto -lssl -lm
+ all: config.h
+ 	$(MAKE) $(AM_MAKEFLAGS) all-am
+ 
